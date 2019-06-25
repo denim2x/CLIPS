@@ -1,0 +1,13 @@
+sentence: subject verb punct | subject verb object punct
+subject: phrase
+object: phrase | preposition phrase
+phrase: noun | attribute noun
+attribute: article | adjectives | article adjectives
+adjectives: adjective+
+noun: "dog" | "fox"
+verb: "jumps"
+preposition: "over"
+article: "a" | "an" | "the"
+adjective: "brown" | "lazy" | "quick"
+punct: "."
+sample: "The quick brown fox jumps over the lazy dog."
